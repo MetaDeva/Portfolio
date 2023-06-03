@@ -198,7 +198,7 @@ export default function Merchandise() {
 
                     <div className="menu--subheader" ref={scrollRef}>
                         <div className="menu--title">
-                            <h2> Menu </h2>
+                            <h2> Merchandise </h2>
                         </div>
 
                         <div className="menu--input-box">
