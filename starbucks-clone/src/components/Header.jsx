@@ -26,7 +26,7 @@ export default function Header(props) {
 
                     <div className='dropdown-exit'>
                         <h2> Search Our Menu </h2>
-                        <span> <img src={Y} onClick={() => dropDownInputToggle(false)} /> </span>
+                        <span> <img src={Y} onClick={() => dropDownInputToggle(false)} alt='' /> </span>
                     </div>
 
 
