@@ -19,13 +19,24 @@ export default function Rewards() {
 
     const [active, setActive] = React.useState(null)
 
+    const [navToggled, setNavToggled] = React.useState(false)
+
+    // Toggling Nav Burger
+    function navToggledFunction() {
+        setNavToggled(toggle => !toggle)
+    }
+
+
     function toggleContent(index) {
         setActive((prevActive) => (prevActive === index ? null : index))
     }
 
     return (
         <div>
-            <Header />
+            <Header
+                toggleFunction={navToggledFunction}
+                toggled={navToggled}
+            />
 
             <div className='rewards-first--section'>
                 <div className='rewards-image-box'>
