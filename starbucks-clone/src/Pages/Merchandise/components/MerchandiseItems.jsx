@@ -4,7 +4,7 @@ export default function MerchandiseItems(props) {
     const { data, receiveAsideData, displayItems, triggersMenu, transferValueItemToParent } = props
 
     // Receiving the Aside Data
-    const [asideData, setAsideData] = React.useState(receiveAsideData)
+    const [asideData] = React.useState(receiveAsideData)
 
     const [itemSelected, setItemSelected] = React.useState(false)
 
