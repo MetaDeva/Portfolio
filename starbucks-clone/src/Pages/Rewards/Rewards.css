@@ -1,0 +1,611 @@
+/* First */
+.rewards-first--section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rewards-first--section .rewards-image-box {
+    width: 600px;
+    height: 320px;
+    padding: 3rem 0 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewards-first--section .rewards-image-box img {
+    width: 400px;
+    height: 250px;
+}
+
+.rewards-first--section .rewards-text-box {
+    width: 600px;
+    height: 250px;
+    padding: 3rem 0 0 0;
+
+}
+
+.rewards-first--section .rewards-text-box h1,
+.rewards-first--section .rewards-text-box h3 {
+    font-weight: 100;
+}
+
+.rewards-first--section .rewards-text-box h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 1rem;
+}
+
+/* Second */
+.rewards-second--section {
+    background-color: rgb(30, 57, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem 0;
+}
+
+.second-section-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stars {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+
+}
+
+.second-section-content .title {
+    color: #fff;
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+
+}
+
+.second-section-content p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+
+    text-align: center;
+    margin: 0 15rem 1.5rem 15rem;
+}
+
+.second-section-content .bold-text {
+    font-weight: bold;
+}
+
+.second-section-content .phone {
+    width: 170px;
+    height: 150px;
+}
+
+/* Third */
+.third-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1.5rem 0;
+}
+
+.third-section-content .title {
+    font-size: 2.5rem;
+}
+
+.third-section-content p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+
+    text-align: center;
+
+    padding: 1rem 0 0 0;
+    margin: 1rem 11rem;
+}
+
+.third-section-content .bold-text {
+    font-weight: bold;
+}
+
+.third-section-content .description {
+
+    line-height: 1.5;
+
+    text-align: center;
+
+    margin: 0 21rem;
+}
+
+.third-section-content .animated-gif {
+    width: 200px;
+    height: 200px;
+}
+
+/* Fourth */
+.rewards-fourth-section {
+    background-color: rgb(30, 57, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem 0;
+    color: #fff;
+}
+
+.fourth-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section-content .title {
+    color: #fff;
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+}
+
+.span-box {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0
+}
+
+.span-box span {
+    width: 35%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.span-box hr {
+    width: 200px;
+}
+
+.p-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.p-box p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* Fifth  */
+.rewards-fifth-section {
+    width: 100%;
+    height: 560px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 90%;
+    background-position-y: 50%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Sixth */
+.rewards-sixth-section {
+    background-color: #F1F0EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 2rem 0;
+}
+
+.rewards-sixth-section span {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.semi-overlay {
+    background-color: #fff;
+    display: flex;
+    flex: 0 0 auto;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+}
+
+.semi-overlay .image-box {
+    flex: 0 0 45%;
+}
+
+.semi-overlay .image-box img {
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.semi-overlay-text-box {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    flex: wrap;
+}
+
+.semi-overlay-text-box p {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.image-row-box img {
+    width: 150px;
+}
+
+/* Seventh  */
+
+.rewards-seventh-section {
+    background-color: #F1F0EC;
+
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rewards-seventh-section .title {
+    width: 960px;
+
+    font-size: 1.5rem;
+    margin: 1rem 0;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.dropdown-container {
+    background-color: transparent;
+    width: 960px;
+    margin-bottoM: 30px;
+
+    box-shadow: 1px 1px 3px #999;
+}
+
+.questionbtn {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.questionbtn .question {
+    padding: 1rem;
+
+}
+
+.questionbtn img {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.answers {
+    background-color: #fff;
+    color: #32674D;
+    line-height: 1.4;
+
+
+
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s, 0.3s;
+
+}
+
+.dropped {
+    display: block;
+    opacity: 1;
+    height: auto;
+
+    padding: 1rem;
+}
+
+.hr-box {
+    width: 900px;
+    box-sizing: border-box;
+
+    flex: 0 0 auto;
+}
+
+.more-questions-box {
+    width: 960px;
+    padding: 1rem 0;
+
+    display: flex;
+    flex: wrap;
+    flex: 0 0 auto;
+    flex-direction: column;
+}
+
+.more-questions {
+    font-size: 2rem;
+}
+
+.more-questions-box p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.terms-of-use-box {
+    width: 960px;
+    padding: 1rem 0;
+
+    display: flex;
+    flex: wrap;
+    flex: 0 0 auto;
+    flex-direction: column;
+}
+
+.terms {
+    font-size: 2rem;
+}
+
+.terms-of-use-box p {
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    margin-bottom: 15px;
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .rewards-first--section .rewards-image-box {
+        width: 300px;
+        padding: 3rem 0 0 0;
+    }
+
+    .rewards-first--section .rewards-image-box img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .rewards-first--section .rewards-text-box {
+        width: 350px;
+        height: 150px;
+        padding: 0 2rem;
+    }
+
+    /* Second */
+    .second-section-content p {
+        margin: 0 10rem 1.5rem 10rem;
+    }
+
+    /* Third */
+    .third-section-content .description {
+
+        line-height: 1.5;
+
+        text-align: center;
+
+        margin: 0 15rem;
+    }
+
+    /* Fifth  */
+    .rewards-fifth-section {
+        width: 100%;
+        height: 560px;
+
+        background-position-x: 50%;
+        background-position-y: 50%;
+    }
+
+    /* Sixth */
+    .semi-overlay {
+        width: 70%;
+    }
+
+    .semi-overlay .image-box img {
+        width: 300px;
+    }
+
+    /* Seventh  */
+    .rewards-seventh-section .title {
+        width: 70%;
+    }
+
+    .dropdown-container {
+        width: 70%;
+    }
+
+    .hr-box {
+        width: 70%;
+    }
+
+    .more-questions-box {
+        width: 70%;
+
+    }
+
+    .terms-of-use-box {
+        width: 70%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rewards-first--section {
+        flex-direction: column;
+    }
+
+    .rewards-first--section .rewards-text-box {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        padding: 0 0 3rem 0;
+    }
+
+    .rewards-first--section .rewards-text-box h3 {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    /* Third */
+    .third-section-content p {
+        margin: 1rem 8rem;
+    }
+
+    .third-section-content .description {
+        margin: 0 9rem;
+    }
+
+    /* Fourth */
+    .p-box {
+        margin: 0 2rem;
+    }
+
+    /* Fifth  */
+    .rewards-fifth-section {
+        background-position-x: 40%;
+        background-position-y: 40%;
+        height: 300px;
+    }
+
+    /* Sixth */
+    .semi-overlay {
+        width: 80%;
+    }
+
+    .image-row-box img {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    /* Second */
+    .second-section-content .title {
+
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .second-section-content p {
+        font-size: 1.3rem;
+        margin: 0 2rem 1.5rem 2rem;
+    }
+
+    /* Third */
+
+    .third-section-content .title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .third-section-content p {
+        margin: 1rem 2rem;
+    }
+
+    .third-section-content .description {
+        margin: 0 2rem;
+    }
+
+    /* Fourth */
+
+    .fourth-section-content .title {
+        text-align: center;
+    }
+
+    .span-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0
+    }
+
+    .span-box span {
+        width: auto;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    /* Fifth  */
+    .rewards-fifth-section {
+        height: 250px;
+    }
+
+    /* Sixth */
+    .semi-overlay {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .semi-overlay .image-box img {
+
+        width: 100%;
+    }
+
+    .image-row-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-row-box img {
+        width: 120px;
+        margin-left: 10px;
+    }
+
+    /* Seventh  */
+    .rewards-seventh-section .title {
+        width: 90%;
+    }
+
+    .dropdown-container {
+        width: 90%;
+    }
+
+    .hr-box {
+        width: 90%;
+    }
+
+    .more-questions-box {
+        width: 90%;
+
+    }
+
+    .terms-of-use-box {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+
+    .rewards-first--section .rewards-text-box h1 {
+        font-size: 2.2rem;
+    }
+
+    .rewards-first--section .rewards-text-box h1,
+    .rewards-first--section .rewards-text-box h3 {
+        text-align: center;
+    }
+}
