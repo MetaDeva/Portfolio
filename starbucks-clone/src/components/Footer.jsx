@@ -23,6 +23,7 @@ export default function Footer() {
         setActiveIndex(prev => prev === index ? null : index)
     }
 
+    console.log(footerToggled);
 
     return (
         <footer>
