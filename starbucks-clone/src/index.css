@@ -522,15 +522,17 @@ footer {
   transition: .5s;
 }
 
-.footer--content ul li {
-  height: 25px;
-  margin-bottom: 5px;
+.footer--content ul a {
+  text-decoration: none;
 }
 
 .footer--content ul li {
+  height: 25px;
+  margin-bottom: 5px;
   cursor: pointer;
   color: gray;
   font-weight: 100;
+
 }
 
 .footer--content ul li:hover {

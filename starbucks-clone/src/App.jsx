@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 
 import Header from "./components/Header";
 import Banner from "./components/Banner";
-
 import Footer from "./components/Footer";
 
 import imageColumn1 from './Images/1-image--1.jpg'

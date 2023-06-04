@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 
 import facebook from '../Images/facebook.png'
 import twitter from '../Images/twitter.png'
@@ -36,7 +37,10 @@ export default function Footer() {
 
                     <h4 onClick={footerToggledFunction}>  About Us   <img className="arrow" src={arrow} alt='' /></h4>
                     <ul>
-                        <li>  Our Company  </li>
+                        <NavLink
+                            to="/company">
+                            <li>  Our Company  </li>
+                        </NavLink>
                         <li>  Stories and News  </li>
                         <li>  Customer Service   </li>
                         <li> Careers  </li>
