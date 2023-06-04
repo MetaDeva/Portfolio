@@ -2,7 +2,7 @@ import React from 'react'
 
 import banner from '../images/banner.jpg'
 
-export default function ({ scrollToElement }) {
+export default function CompanyBanner({ scrollToElement }) {
     return (
         <div className='company-banner--section' style={{ backgroundImage: `url(${banner})` }}>
             <div className='company-banner-content'>
