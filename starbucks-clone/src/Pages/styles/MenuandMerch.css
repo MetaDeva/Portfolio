@@ -238,6 +238,7 @@ aside .first-layer-ul .first-layer-li ul li:last-child {
 }
 
 .menu--content {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -857,6 +858,21 @@ aside .first-layer-ul .first-layer-li ul li:last-child {
 }
 
 @media screen and (max-width: 376px) {
+
+    .category-clicked-content-container {
+        margin-left: 3%;
+    }
+
+    /* Menu */
+    .items--link-box {
+        width: 50%;
+        height: 150px;
+    }
+
+    .menu--items {
+        width: 50%;
+    }
+
 
     /* Overlay Text */
     .overlay-textbox {

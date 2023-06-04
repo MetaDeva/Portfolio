@@ -273,18 +273,21 @@ main {
 
 .banner--title-box button {
   padding: 8px 15px;
-  color: #1E3932;
+  margin-top: 40px;
   font-weight: bold;
+
   background: transparent;
   border-radius: 25px;
+
   cursor: pointer;
   transition: .3s;
 }
 
 .banner--title-box button:hover {
   background-color: #1E3932;
-  color: #fff;
+  color: #fff
 }
+
 
 /* Poster */
 .column--tall {
