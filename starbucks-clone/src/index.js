@@ -10,6 +10,7 @@ import Rewards from './Pages/Rewards/Rewards';
 
 // Footer
 import Company from './FooterPages/Company/Company'
+import Service from './FooterPages/Service/Service';
 
 const router = createBrowserRouter([
   {
@@ -28,11 +29,16 @@ const router = createBrowserRouter([
     path: '/rewards',
     element: <Rewards />,
   },
+
+  // Footer
   {
     path: '/company',
     element: <Company />,
   },
-
+  {
+    path: '/service',
+    element: <Service />,
+  },
 
   {
     path: '*',

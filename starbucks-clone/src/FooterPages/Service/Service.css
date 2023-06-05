@@ -1,0 +1,121 @@
+.service--banner-section {
+    width: 100%;
+    height: 560px;
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.service--banner-content {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+
+    color: #fff;
+}
+
+.service--banner-content h1 {
+    font-size: 4.5rem;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.service--banner-content button {
+    padding: 8px 10px;
+    width: 170px;
+
+    color: #fff;
+    font-weight: bold;
+
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+
+    cursor: pointer;
+    transition: .2s;
+}
+
+.service--banner-content button:hover {
+    background: #999;
+}
+
+/* Row */
+.service--row {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service--row-content {
+    width: 45%;
+    padding: 5rem 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.service--row-content h2 {
+    margin-block-start: 0;
+    margin-block-end: .5rem;
+}
+
+.service--row-content p {
+    margin-block-start: 0;
+    margin-block-end: 2rem;
+
+    line-height: 1.5;
+
+}
+
+.service--row-content span {
+    font-weight: bold;
+    color: #2b8815;
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .service--row-content {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Banner */
+    .service--banner-section {
+        height: 400px;
+    }
+
+    .service--banner-content {
+        width: 90%;
+    }
+
+    .service--banner-content h1 {
+        font-size: 3rem;
+    }
+
+    /* Row */
+    .service--row-content {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .service--banner-content h1 {
+        font-size: 2.5rem;
+    }
+
+}

@@ -19,6 +19,8 @@ export default function Header(props) {
         rotate: props.toggled ? "90deg" : "0deg"
     }
 
+
+
     const dropInput = (
         <div className='dropdown-input-container'>
             <div className="dropdown-input-box">
@@ -108,9 +110,9 @@ export default function Header(props) {
                 <div>
                     <nav className='drawer--nav open' >
                         <ul>
-                            <li><NavLink to="/menu" activeclassname=""> MENU </NavLink ></li>
-                            <li><NavLink to="/merchandise" activeclassname="none"> MERCHANDISE </NavLink ></li>
-                            <li><NavLink to="/rewards" activeclassname="none"> REWARDS </NavLink ></li>
+                            <li><Link to="/menu" activeclassname=""> MENU </Link ></li>
+                            <li><Link to="/merchandise" activeclassname=" "> MERCHANDISE </Link ></li>
+                            <li><Link to="/rewards" activeclassname=" "> REWARDS </Link ></li>
                         </ul>
 
                         <div>

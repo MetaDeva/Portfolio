@@ -42,7 +42,11 @@ export default function Footer() {
                             <li>  Our Company  </li>
                         </NavLink>
                         <li>  Stories and News  </li>
-                        <li>  Customer Service   </li>
+                        <NavLink
+                            to="/service">
+                            <li>  Customer Service   </li>
+                        </NavLink>
+
                         <li> Careers  </li>
                     </ul>
                 </div>
