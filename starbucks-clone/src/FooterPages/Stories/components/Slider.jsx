@@ -12,10 +12,12 @@ export default function Slider(props) {
     // <h4> picked value
     const [pickedCategory, setPickedCategory] = React.useState(false);
 
+
     // Buttons
     const [nextToggled, setNextToggled] = React.useState(false);
     const [prevToggled, setPrevToggled] = React.useState(false);
 
+    console.log(pickedCategory, prevToggled);
     // Group of 3 index
     const [currentGroupIndex, setCurrentGroupIndex] = React.useState(0);
 
