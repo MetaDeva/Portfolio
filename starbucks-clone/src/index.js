@@ -9,7 +9,8 @@ import Merchandise from './Pages/Merchandise/Merchandise';
 import Rewards from './Pages/Rewards/Rewards';
 
 // Footer
-import Company from './FooterPages/Company/Company'
+import Company from './FooterPages/Company/Company';
+import Stories from './FooterPages/Stories/Stories';
 import Service from './FooterPages/Service/Service';
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: '/company',
     element: <Company />,
+  },
+  {
+    path: '/stories',
+    element: <Stories />,
   },
   {
     path: '/service',
