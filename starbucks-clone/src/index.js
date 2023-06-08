@@ -13,6 +13,8 @@ import Company from './FooterPages/Company/Company';
 import Stories from './FooterPages/Stories/Stories';
 import Service from './FooterPages/Service/Service';
 
+import Order from './FooterPages/Order/Order'
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -32,6 +34,7 @@ const router = createBrowserRouter([
   },
 
   // Footer
+  // 1st
   {
     path: '/company',
     element: <Company />,
@@ -43,6 +46,12 @@ const router = createBrowserRouter([
   {
     path: '/service',
     element: <Service />,
+  },
+
+  // 2nd
+  {
+    path: '/order',
+    element: <Order />,
   },
 
   {

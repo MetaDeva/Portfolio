@@ -61,7 +61,10 @@ export default function Footer() {
 
                     <h4 onClick={footerToggledFunction}>  Order Online  <img className="arrow" src={arrow} alt='' /> </h4>
                     <ul >
-                        <li>  Order on the App   </li>
+                        <NavLink
+                            to="/order">
+                            <li>  Order on the App   </li>
+                        </NavLink>
                         <li>  Delivery   </li>
                         <li>  Send eGifts   </li>
                         <li>  Grab Partnerships   </li>
