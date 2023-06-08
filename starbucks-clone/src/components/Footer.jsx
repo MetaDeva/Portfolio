@@ -65,8 +65,15 @@ export default function Footer() {
                             to="/order">
                             <li>  Order on the App   </li>
                         </NavLink>
-                        <li>  Delivery   </li>
-                        <li>  Send eGifts   </li>
+                        <NavLink
+                            to="/delivery">
+                            <li>  Delivery   </li>
+                        </NavLink>
+
+                        <NavLink
+                            to="/gifts">
+                            <li>  Send eGifts   </li>
+                        </NavLink>
                         <li>  Grab Partnerships   </li>
                     </ul>
                 </div>

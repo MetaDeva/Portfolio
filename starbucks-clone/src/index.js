@@ -14,6 +14,8 @@ import Stories from './FooterPages/Stories/Stories';
 import Service from './FooterPages/Service/Service';
 
 import Order from './FooterPages/Order/Order'
+import Delivery from './FooterPages/Delivery/Delivery'
+import Gifts from './FooterPages/Gifts/Gifts'
 
 const router = createBrowserRouter([
   {
@@ -52,6 +54,14 @@ const router = createBrowserRouter([
   {
     path: '/order',
     element: <Order />,
+  },
+  {
+    path: '/delivery',
+    element: <Delivery />,
+  },
+  {
+    path: '/gifts',
+    element: <Gifts />,
   },
 
   {
