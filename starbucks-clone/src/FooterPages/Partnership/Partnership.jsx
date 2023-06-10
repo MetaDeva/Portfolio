@@ -28,6 +28,13 @@ export default function Partnership() {
 
     const [videoPlayed, setVideoPlayed] = React.useState(false)
 
+    const [navToggled, setNavToggled] = React.useState(false)
+
+    // Toggling Nav Burger
+    function navToggledFunction() {
+        setNavToggled(toggle => !toggle)
+    }
+
     function playVideo() {
         setVideoPlayed(data => !data)
     }
@@ -48,7 +55,10 @@ export default function Partnership() {
     };
     return (
         <div>
-            <Header />
+            <Header
+                toggleFunction={navToggledFunction}
+                toggled={navToggled}
+            />
 
             <div className='partner--banner-section' style={{ backgroundImage: `url(${banner})` }}>
 
