@@ -24,6 +24,10 @@ export default function Footer() {
         setActiveIndex(prev => prev === index ? null : index)
     }
 
+    const handleLinkClick = () => {
+        window.scrollTo(0, 0);
+    };
+
     console.log(footerToggled);
 
     return (
@@ -38,15 +42,21 @@ export default function Footer() {
                     <h4 onClick={footerToggledFunction}>  About Us   <img className="arrow" src={arrow} alt='' /></h4>
                     <ul>
                         <NavLink
-                            to="/company">
+                            to="/company"
+                            onClick={handleLinkClick}
+                        >
                             <li>  Our Company  </li>
                         </NavLink>
                         <NavLink
-                            to="/stories">
+                            to="/stories"
+                            onClick={handleLinkClick}
+                        >
                             <li>  Stories and News  </li>
                         </NavLink>
                         <NavLink
-                            to="/service">
+                            to="/service"
+                            onClick={handleLinkClick}
+                        >
                             <li>  Customer Service   </li>
                         </NavLink>
 
@@ -62,19 +72,32 @@ export default function Footer() {
                     <h4 onClick={footerToggledFunction}>  Order Online  <img className="arrow" src={arrow} alt='' /> </h4>
                     <ul >
                         <NavLink
-                            to="/order">
+                            to="/order"
+                            onClick={handleLinkClick}
+                        >
                             <li>  Order on the App   </li>
                         </NavLink>
                         <NavLink
-                            to="/delivery">
+                            to="/delivery"
+                            onClick={handleLinkClick}
+                        >
                             <li>  Delivery   </li>
                         </NavLink>
 
                         <NavLink
-                            to="/gifts">
+                            to="/gifts"
+                            onClick={handleLinkClick}
+                        >
                             <li>  Send eGifts   </li>
                         </NavLink>
-                        <li>  Grab Partnerships   </li>
+
+                        <NavLink
+                            to="/partnership"
+                            onClick={handleLinkClick}
+                        >
+                            <li>  Grab Partnerships   </li>
+                        </NavLink>
+
                     </ul>
                 </div>
 

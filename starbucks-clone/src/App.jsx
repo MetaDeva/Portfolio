@@ -24,6 +24,11 @@ function App() {
     setNavToggled(toggle => !toggle)
   }
 
+  // View the very top of a webpage when transferring to other pages
+  const handleLinkClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div>
       <Header
@@ -59,6 +64,7 @@ function App() {
               <div className='button-box'>
                 <NavLink
                   to="/menu"
+                  onClick={handleLinkClick}
                   activeclassname="active">
                   <button> Sip Sip Go </button>
                 </NavLink>
@@ -75,6 +81,7 @@ function App() {
               <div className='button-box'>
                 <NavLink
                   to="/menu"
+                  onClick={handleLinkClick}
                   activeclassname="active">
                   <button> See More </button>
                 </NavLink>
@@ -95,6 +102,7 @@ function App() {
               <div className='button-box'>
                 <NavLink
                   to="/merchandise"
+                  onClick={handleLinkClick}
                   activeclassname="active">
                   <button> Explore </button>
                 </NavLink>

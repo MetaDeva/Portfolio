@@ -16,6 +16,7 @@ import Service from './FooterPages/Service/Service';
 import Order from './FooterPages/Order/Order'
 import Delivery from './FooterPages/Delivery/Delivery'
 import Gifts from './FooterPages/Gifts/Gifts'
+import Partnership from './FooterPages/Partnership/Partnership'
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
   {
     path: '/gifts',
     element: <Gifts />,
+  },
+  {
+    path: '/partnership',
+    element: <Partnership />,
   },
 
   {

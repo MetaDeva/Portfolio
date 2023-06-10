@@ -19,7 +19,10 @@ export default function Header(props) {
         rotate: props.toggled ? "90deg" : "0deg"
     }
 
-
+    // View the very top of a webpage when transferring to other pages
+    const handleLinkClick = () => {
+        window.scrollTo(0, 0);
+    };
 
     const dropInput = (
         <div className='dropdown-input-container'>
@@ -54,12 +57,13 @@ export default function Header(props) {
         < header >
             < nav className='head--nav' >
                 <div className="logo--container">
-                    <Link to="/home"> <img src={logo} className="logo" alt='' /> </Link>
+                    <Link to="/home" onClick={handleLinkClick}> <img src={logo} className="logo" alt='' /> </Link>
 
                     <ul>
                         <li>
                             <NavLink
                                 to="/menu"
+                                onClick={handleLinkClick}
                                 activeclassname="active">
                                 MENU
                             </NavLink>
@@ -68,6 +72,7 @@ export default function Header(props) {
                         <li>
                             <NavLink
                                 to="/merchandise"
+                                onClick={handleLinkClick}
                                 activeclassname="active"
                             >
                                 MERCHANDISE
@@ -77,6 +82,7 @@ export default function Header(props) {
                         <li>
                             <NavLink
                                 to="/rewards"
+                                onClick={handleLinkClick}
                                 activeclassname="active"
                             >
                                 REWARDS
@@ -110,9 +116,9 @@ export default function Header(props) {
                 <div>
                     <nav className='drawer--nav open' >
                         <ul>
-                            <li><Link to="/menu" activeclassname=""> MENU </Link ></li>
-                            <li><Link to="/merchandise" activeclassname=" "> MERCHANDISE </Link ></li>
-                            <li><Link to="/rewards" activeclassname=" "> REWARDS </Link ></li>
+                            <li><Link to="/menu" onClick={handleLinkClick}> MENU </Link ></li>
+                            <li><Link to="/merchandise" onClick={handleLinkClick}> MERCHANDISE </Link ></li>
+                            <li><Link to="/rewards" onClick={handleLinkClick}> REWARDS </Link ></li>
                         </ul>
 
                         <div>
