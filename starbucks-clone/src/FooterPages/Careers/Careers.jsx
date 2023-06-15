@@ -43,7 +43,7 @@ export default function Careers() {
                     </div>
 
                     <div className='careers-first-imagebox'>
-                        <img src={first} />
+                        <img src={first} alt='' />
                     </div>
 
                 </div>
@@ -97,7 +97,7 @@ export default function Careers() {
                                     we serve and making a positive impact on the world.
                                 </p>
                                 <div className='careers-third-imagebox'>
-                                    <img src={community} />
+                                    <img src={community} alt='' />
                                 </div>
                             </div>
 
@@ -108,7 +108,7 @@ export default function Careers() {
                                     an inclusive and welcoming environment where everyone feels respected and valued.
                                 </p>
                                 <div className='careers-third-imagebox'>
-                                    <img src={diversity} />
+                                    <img src={diversity} alt='' />
                                 </div>
                             </div>
 
@@ -120,7 +120,7 @@ export default function Careers() {
                                 </p>
 
                                 <div className='careers-third-imagebox'>
-                                    <img src={sustainability} />
+                                    <img src={sustainability} alt='' />
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ export default function Careers() {
                         <div className='careers-fourth-content-container'>
                             <div className='careers-fourth-content-box'>
                                 <div className='careers-fourth-imagebox'>
-                                    <img src={free} />
+                                    <img src={free} alt='' />
                                 </div>
                                 <h1> Health & Wellness</h1>
                                 <p>
@@ -199,7 +199,7 @@ export default function Careers() {
 
                             <div className='careers-fourth-content-box'>
                                 <div className='careers-fourth-imagebox'>
-                                    <img src={health} />
+                                    <img src={health} alt='' />
                                 </div>
                                 <h1> Free Coffee</h1>
                                 <p>
@@ -209,7 +209,7 @@ export default function Careers() {
 
                             <div className='careers-fourth-content-box'>
                                 <div className='careers-fourth-imagebox'>
-                                    <img src={vacation} />
+                                    <img src={vacation} alt='' />
                                 </div>
                                 <h1> Vacation Time </h1>
                                 <p>
