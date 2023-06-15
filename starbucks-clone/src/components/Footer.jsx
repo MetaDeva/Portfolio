@@ -60,7 +60,12 @@ export default function Footer() {
                             <li>  Customer Service   </li>
                         </NavLink>
 
-                        <li> Careers  </li>
+                        <NavLink
+                            to="/careers"
+                            onClick={handleLinkClick}
+                        >
+                            <li> Careers  </li>
+                        </NavLink>
                     </ul>
                 </div>
 
@@ -108,10 +113,30 @@ export default function Footer() {
 
                     <h4 onClick={footerToggledFunction}> Rewards  <img className="arrow" src={arrow} alt='' /></h4>
                     <ul>
-                        <li> My Account </li>
-                        <li> View Transactions </li>
-                        <li> Reload </li>
-                        <li> FAQs </li>
+                        <NavLink
+                            to="/login"
+                            onClick={handleLinkClick}
+                        >
+                            <li> My Account </li>
+                        </NavLink>
+                        <NavLink
+                            to="/login"
+                            onClick={handleLinkClick}
+                        >
+                            <li> View Transactions </li>
+                        </NavLink>
+                        <NavLink
+                            to="/login"
+                            onClick={handleLinkClick}
+                        >
+                            <li> Reload </li>
+                        </NavLink>
+                        <NavLink
+                            to="/login"
+                            onClick={handleLinkClick}
+                        >
+                            <li> FAQs </li>
+                        </NavLink>
                     </ul>
                 </div>
 
@@ -129,12 +154,10 @@ export default function Footer() {
             <div className='second-footer--container'>
 
                 <div className="social-icon--box">
-
-                    <img src={facebook} alt='' />
-                    <img src={twitter} alt='' />
-                    <img src={instagram} alt='' />
-                    <img src={youtube} alt='' />
-
+                    <a href="https://www.facebook.com/StarbucksPhilippines"> <img src={facebook} alt='' /> </a>
+                    <a href='http://www.twitter.com/starbucksph'> <img src={twitter} alt='' /> </a>
+                    <a href="http://www.instagram.com/starbucksph"> <img src={instagram} alt='' /> </a>
+                    <a href="https://www.youtube.com/channel/UColvYenSJ5Lc4cKrlb0Ajrw"> <img src={youtube} alt='' /></a>
                 </div>
 
                 <ul>

@@ -436,7 +436,12 @@ export default function Partnership() {
                     <div className='partner-ninth-textbox'>
                         <h1> Not yet a Starbucks Rewards member? </h1>
                         <h2> Join now to start earning Rewards. </h2>
-                        <button> Join Now </button>
+                        <NavLink
+                            to="/login"
+                            onClick={handleLinkClick}
+                        >
+                            <button> Join Now </button>
+                        </NavLink>
                         <h2> Or <Link to="/order" onClick={handleLinkClick}> join in the app </Link> join in the app for the best experience </h2>
                     </div>
                 </div>

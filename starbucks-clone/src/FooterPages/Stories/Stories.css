@@ -43,6 +43,10 @@
     transition: .2s;
 }
 
+.stories--banner-content button:hover {
+    background-color: #00754a;
+}
+
 /* Main */
 .column-container {
     width: 100%;

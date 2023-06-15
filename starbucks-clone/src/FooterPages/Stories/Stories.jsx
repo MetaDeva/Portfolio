@@ -18,6 +18,8 @@ import articlesData from '../Service/articlesData'
 
 export default function Stories() {
 
+    const articleRef = React.useRef(null)
+
     const [sliderData] = React.useState([articlesData])
 
     const [navToggled, setNavToggled] = React.useState(false)
@@ -25,6 +27,11 @@ export default function Stories() {
     // Toggling Nav Burger
     function navToggledFunction() {
         setNavToggled(toggle => !toggle)
+    }
+
+    // Scroll to Element (Button Banner)
+    function scrollToElement() {
+        articleRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
     const sliderElement = sliderData.map(data => {
@@ -44,14 +51,14 @@ export default function Stories() {
                 <div className='stories--banner-content'>
                     <h1> Our latest updates and stories. </h1>
                     <h3> Sip back and relax while browsing through the articles </h3>
-                    <button> See the rest </button>
+                    <button onClick={scrollToElement}> See the rest </button>
                 </div>
             </div>
 
             <main>
-                <div className='column-container'>
+                <div className='column-container' ref={articleRef}>
 
-                    <div className='column-wide'>
+                    <div className='column-wide' >
                         <div className='column-wide-image' style={{ backgroundImage: `url(${womenmonth})` }}> </div>
                         <div className='column-wide-content'>
                             <h2> Strong Like Coffee: Trailblazing Women of Starbucks Philippines </h2>

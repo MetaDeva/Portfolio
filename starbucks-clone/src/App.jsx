@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import Header from "./components/Header";
 import Banner from "./components/Banner";
@@ -47,7 +47,13 @@ function App() {
               <h1> Gifting Made Easy </h1>
               <h2> Order and send a Starbucks eGift through GLife on GCash today. </h2>
               <div className="button-box">
-                <button> Learn More </button>
+                <Link
+                  to="/gifts"
+                  onClick={handleLinkClick}
+                >
+                  <button> Learn More </button>
+                </Link>
+
               </div>
 
             </div>
@@ -118,7 +124,12 @@ function App() {
               <h1> No time to head out? </h1>
               <h2> Have your favorites delivered straight to your doorstep. </h2>
               <div className='button-box'>
-                <button> Learn More </button>
+                <Link
+                  to="/delivery"
+                  onClick={handleLinkClick}
+                >
+                  <button> Learn More </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -141,7 +152,12 @@ function App() {
               <h1> Starbucks Stories </h1>
               <h2> Continuing to inspire and nurture the human spirit–one person, one cup and one neighborhood at a time. </h2>
               <div className="button-box">
-                <button> Explore </button>
+                <Link
+                  to="/stories"
+                  onClick={handleLinkClick}
+                >
+                  <button> Explore </button>
+                </Link>
               </div>
             </div>
             <div className="column--images" style={{ backgroundImage: `url(${imageColumn5})` }}></div>

@@ -1,0 +1,517 @@
+.careers-section-container {
+    width: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.careers-first-section {
+    width: 70%;
+
+    padding: 3rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.careers-first-textbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.careers-first-section h1 {
+    color: #00754A;
+
+    font-size: 3rem;
+}
+
+.careers-first-section h3 {
+    width: 90%;
+    line-height: 1.5;
+
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.careers-first-imagebox {
+    width: 60%;
+    display: flex;
+}
+
+/* Second */
+.careers-second-section {
+    width: 70%;
+    padding: 3rem 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.colored {
+    color: #00754A;
+
+    font-size: 2.5rem;
+}
+
+.careers-second-content-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+
+
+    gap: 20px;
+}
+
+.careers-second-content-box {
+    width: 46%;
+    padding: 1rem;
+    background-color: #D4E9E2;
+
+
+    border-radius: 5px;
+}
+
+.careers-second-content-box h1 {
+    color: #00754A;
+}
+
+.careers-second-content-box h3 {
+    font-weight: 100;
+}
+
+/* Third */
+.careers-wrapper {
+    padding: 2rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #D4E9E2;
+}
+
+.careers-third-section {
+    width: 69%;
+    background-color: #fff;
+
+    padding: 0 1rem;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+
+}
+
+.careers-third-content-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+
+    gap: 20px;
+}
+
+.careers-third-content-box {
+    width: 32%;
+    padding: 1rem 0;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.careers-third-content-box h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.careers-third-content-box p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+.careers-third-imagebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.careers-third-imagebox img {
+    width: 100%;
+    height: 250px;
+}
+
+/* Middle */
+.careers-middle-section {
+    width: 69%;
+    background-color: #fff;
+
+    padding: 0 1rem;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+
+}
+
+.careers-middle-content-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+
+    gap: 20px;
+}
+
+.careers-middle-content-box {
+    width: 32%;
+
+    padding-bottom: 1rem;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.careers-middle-content-box h1 {
+    margin-block-start: 1rem;
+    margin-block-end: 0;
+}
+
+.careers-middle-content-box h4 {
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.5;
+
+
+}
+
+.careers-middle-content-box ul {
+    margin: 0;
+    padding: 20px;
+}
+
+.careers-middle-content-box li {
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+    list-style-type: disc;
+
+}
+
+
+.careers-middle-content-box li {
+    font-size: 1.2rem;
+}
+
+.careers-middle-imagebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.careers-middle-imagebox img {
+    width: 100%;
+    height: 250px;
+}
+
+/* Fourth */
+.careers-fourth-section {
+    width: 69%;
+    background-color: #fff;
+
+    padding: 0 1rem;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.careers-fourth-content-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+
+    gap: 20px;
+}
+
+.careers-fourth-content-box {
+    width: 32%;
+
+    padding-bottom: 1rem;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.careers-fourth-content-box h1 {
+    margin-block-start: 1rem;
+    margin-block-end: 0;
+}
+
+.careers-fourth-content-box p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.careers-fourth-content-box li {
+    font-size: 1.2rem;
+}
+
+.careers-fourth-imagebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.careers-fourth-imagebox img {
+    width: 100%;
+    height: 250px;
+}
+
+/* Fifth */
+.careers-fifth-section {
+    width: 70%;
+    padding-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.careers-fifth-content-container {
+    display: flex;
+
+    gap: 20px;
+}
+
+.careers-fifth-content-box {
+    width: 33%;
+    padding: 1rem;
+    background-color: #D4E9E2;
+
+
+    border-radius: 5px;
+}
+
+.careers-fifth-content-box h1 {
+    color: #00754A;
+    font-size: 1.5rem;
+}
+
+.careers-fifth-content-box h3 {
+    font-weight: 100;
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* First */
+    .careers-first-section {
+        width: 90%;
+    }
+
+    /* Second */
+    .careers-second-section {
+        width: 90%;
+    }
+
+
+    .careers-second-content-box {
+        width: 45%;
+    }
+
+    /* Third */
+    .careers-third-section {
+        width: 90%;
+    }
+
+    .careers-third-content-box {
+        width: 30%;
+
+    }
+
+    .careers-third-content-box h1 {
+        margin-block-start: 0;
+        font-size: 1.5rem;
+    }
+
+    .careers-third-content-box p {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    /* Middle */
+    .careers-middle-section {
+        width: 90%;
+    }
+
+    .careers-middle-content-box {
+        width: 30%;
+    }
+
+    .careers-middle-content-box h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* Fourth */
+    .careers-fourth-section {
+        width: 90%;
+    }
+
+    .careers-fourth-content-box {
+        width: 30%;
+    }
+
+    .careers-fourth-content-box h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* Fifth */
+    .careers-fifth-section {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* First */
+    .careers-first-section {
+        flex-direction: column;
+    }
+
+    .careers-first-textbox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .careers-first-section h1 {
+        text-align: center;
+
+    }
+
+    .careers-first-section h3 {
+        width: 100%;
+
+    }
+
+    .careers-first-imagebox {
+        width: 100%;
+        display: flex;
+    }
+
+    .careers-first-imagebox img {
+        width: 100%;
+
+    }
+
+    /* Second */
+    .careers-second-content-box {
+        width: 90%;
+    }
+
+    .colored {
+        text-align: center;
+    }
+
+    /* Third */
+    .careers-third-section {
+        width: 90%;
+    }
+
+    .careers-third-content-box {
+        width: 100%;
+
+    }
+
+    .careers-third-content-box h1 {
+        margin-block-start: 1em;
+        order: 2;
+    }
+
+    .careers-third-content-box p {
+        font-size: 1.1rem;
+        text-align: center;
+        order: 3;
+    }
+
+    .careers-third-imagebox {
+        order: 1;
+    }
+
+    .careers-third-imagebox img {
+        height: auto;
+    }
+
+    /* Middle */
+    .careers-middle-content-box {
+        width: 90%;
+    }
+
+    .careers-middle-content-box h4 {
+        text-align: center;
+    }
+
+    /* Fourth */
+    .careers-fourth-section {
+        width: 90%;
+    }
+
+    .careers-fourth-content-box {
+        width: 90%;
+    }
+
+    .careers-fourth-content-box h1 {
+        order: 2;
+    }
+
+    .careers-fourth-content-box p {
+        order: 3;
+    }
+
+
+    .careers-fourth-imagebox {
+        order: 1;
+    }
+
+    .careers-fourth-imagebox img {
+
+        height: auto;
+    }
+
+    /* Fifth */
+    .careers-fifth-content-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .careers-fifth-content-box {
+        width: 90%;
+
+    }
+}

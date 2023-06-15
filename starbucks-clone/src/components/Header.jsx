@@ -1,6 +1,6 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+
 
 import logo from "../Images/sblogo.svg"
 
@@ -93,9 +93,8 @@ export default function Header(props) {
 
 
                 <div className="header-button--container">
-                    <span>Find a Store</span>
-                    <button className="btn--sign-in">Sign In</button>
-                    <button className="btn--join-now">Join Now</button>
+                    <Link to="/signUp" onClick={handleLinkClick}> <button className="btn--sign-in">Sign In</button>  </Link >
+                    <Link to="/login" onClick={handleLinkClick}> <button className="btn--join-now">Join Now</button> </Link >
                 </div>
 
 
@@ -123,9 +122,8 @@ export default function Header(props) {
 
                         <div>
                             <div className="drawer-button--container">
-                                <span>Find a Store</span>
-                                <button className="drawer-btn--sign-in">Sign In</button>
-                                <button className="drawer-btn--join-now">Join Now</button>
+                                <Link to="/account" onClick={handleLinkClick}> <button className="drawer-btn--sign-in">Sign In</button>  </Link >
+                                <Link to="/account" onClick={handleLinkClick}> <button className="drawer-btn--join-now">Join Now</button> </Link >
                             </div>
                         </div>
                     </nav>

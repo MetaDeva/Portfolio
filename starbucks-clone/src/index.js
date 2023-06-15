@@ -17,6 +17,10 @@ import Order from './FooterPages/Order/Order'
 import Delivery from './FooterPages/Delivery/Delivery'
 import Gifts from './FooterPages/Gifts/Gifts'
 import Partnership from './FooterPages/Partnership/Partnership'
+import Careers from './FooterPages/Careers/Careers';
+
+import Login from './FooterPages/Login/Login'
+import SignUp from './FooterPages/Sign Up/Sign-up'
 
 const router = createBrowserRouter([
   {
@@ -67,6 +71,21 @@ const router = createBrowserRouter([
   {
     path: '/partnership',
     element: <Partnership />,
+  },
+
+  {
+    path: '/careers',
+    element: <Careers />,
+  },
+
+  {
+    path: '/login',
+    element: <Login />,
+  },
+
+  {
+    path: '/signUp',
+    element: <SignUp />,
   },
 
   {
